@@ -4,12 +4,116 @@
 }
 
 body {
-  background-color: #b5fac7;
+  background-color: #090909;
 }
 
 .pages {
-  color: #316685;
+  color: #ea0404;
   text-align: center;
-  font-size: 3.5rem;
-  margin-top: 10%;
+  font-size: 1rem;
+}
+input[type=text] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=text] {
+  border: 2px solid red;
+  border-radius: 4px;
+}
+input[type=text] {
+  background-color: #e10909;
+  color: white;
+}
+
+button[type=submit] {
+  background-color: #de0000;
+  color: white;
+}
+button[type=submit] {
+  width: 10%;
+  padding: 12px 20px;
+  border-radius: 10rem;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background: #0a0a0a;
+}
+
+/* Header/Blog Title */
+.header {
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius:1rem;
+}
+
+.card h2{
+  font-family: "Rubik Distressed";
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+#meet{
+  border: 2px solid red;
+    width: 30rem;
+    margin: auto;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
 }
